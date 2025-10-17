@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nikola Jonić — Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Nikola Jonić</h1>
+        <nav>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero">
+        <h2>
+          Crafting modern, high-performance <span>web</span> and
+          <span>mobile</span> experiences
+        </h2>
+      </section>
+
+      <section class="projects-title">
+        <h2>Projects</h2>
+      </section>
+      <section id="projects" class="projects">
+        <div class="project has-demo" onclick="expandProject(this)">
+          <h3>QuickPost — Mini Postman</h3>
+          <p>
+            Lightweight API client extension to compose requests, manage
+            collections, and test endpoints quickly.
+          </p>
+          <div class="tech">
+            <span>React</span><span>TypeScript</span><span>Vite</span
+            ><span>Chrome Extension</span>
+          </div>
+          <div class="details">
+            QuickPost lets devs send/organize HTTP requests in-browser. Includes
+            history, JSON formatting, and local storage sync.
+            <a
+              href="https://nikolajonic.github.io/quick-post"
+              target="_blank"
+              class="demo-btn"
+              onclick="event.stopPropagation()"
+              >Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="project has-demo" onclick="expandProject(this)">
+          <h3>Roulette</h3>
+          <p>
+            A real-time roulette simulation developed using React and PixiJS for
+            dynamic rendering and smooth performance.
+          </p>
+          <div class="tech">
+            <span>React</span><span>PixiJS</span><span>TypeScript</span>
+          </div>
+
+          <div class="details">
+            Delivers smooth spin mechanics, diverse betting options, precise win
+            detection, and responsive scaling powered by PixiJS for
+            high-performance rendering.
+            <a
+              href="https://nikolajonic.github.io/roulette/"
+              target="_blank"
+              class="demo-btn"
+              onclick="event.stopPropagation()"
+              >Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="project has-demo" onclick="expandProject(this)">
+          <h3>Slot Machine Game</h3>
+          <p>
+            A 5x6 slot machine featuring a fully client-side engine for
+            real-time spins and instant results.
+          </p>
+          <div class="tech">
+            <span>React</span><span>PixiJS</span><span>TypeScript</span
+            ><span>ThreeJS</span><span>Google Cloud</span>
+          </div>
+          <div class="details">
+            Features real-time spin logic, configurable paylines, multiplier
+            handling, and responsive performance entirely on the client side.
+            <a
+              href="https://nikolajonic.github.io/slot-game-basic/"
+              target="_blank"
+              class="demo-btn"
+              onclick="event.stopPropagation()"
+              >Demo</a
+            >
+          </div>
+        </div>
+
+        <div class="project" onclick="expandProject(this)">
+          <h3>Checkupbox</h3>
+          <p>
+            A medical platform for managing dermatology appointments, skin
+            screenings, reporting, and invoicing
+          </p>
+          <div class="tech">
+            <span>React</span><span>Redux</span><span>TypeScript</span
+            ><span>Matirial UI</span><span>React Hook Form</span>
+          </div>
+          <div class="details">
+            A medical platform for managing dermatology appointments, skin
+            screenings, and reporting. Doctors can schedule consultations,
+            create medical reports, and plan follow-up screenings. Admins and
+            staff can manage appointments, assign billing tasks, and generate
+            invoices. The system also supports generating administrative reports
+            separate from clinical ones. Designed to support all roles in a
+            medical center, including doctors, admins, staff, radiologic
+            technologists, and patients
+          </div>
+        </div>
+
+        <div class="project" onclick="expandProject(this)">
+          <h3>Nextesy</h3>
+          <p>
+            The project focuses on optimizing bookkeeping tasks for
+            professionals by automating processes.
+          </p>
+          <div class="tech">
+            <span>React</span><span>Tanstack</span><span>TypeScript</span
+            ><span>Material UI</span><span>REST</span><span>Sass</span>
+          </div>
+
+          <div class="details">
+            The project resulted in a platform that automates transaction
+            recording, improves financial reporting accuracy, simplifies payroll
+            management, and ensures compliance with tax regulations for
+            bookkeepers
+          </div>
+        </div>
+
+        <div class="project" onclick="expandProject(this)">
+          <h3>Arvy</h3>
+          <p>
+            Mobile application designed for investing in stocks, tracking market
+            trends, and managing personal portfolios.
+          </p>
+          <div class="tech">
+            <span>React Native</span><span>React Hook Form</span
+            ><span>React Context</span><span>TypeScript</span
+            ><span>Firebase</span>
+          </div>
+
+          <div class="details">
+            The result of the project was a secure investment platform where
+            clients could deposit fundsfor investment, and owners eff ectively
+            managed investments in stocks and securities. This platform provided
+            transparent monitoring and reporting tools, optimizing investment
+            performance and ensuring compliance with financial regulations.
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="experience">
+        <h2>Experience</h2>
+        <div class="exp-card">
+          <h3>Frontend Developer</h3>
+          <span>Holycode Products</span>
+          <span>Nov 2022 — Sep 2025 · Hybrid</span>
+          <ul>
+            <li>
+              Specialized in web and mobile application development using React,
+              React Native, and Flutter.
+            </li>
+            <li>
+              Managed backend services with Firebase and Google Cloud, ensuring
+              scalability and robustness.
+            </li>
+            <li>
+              Delivered applications on Google Play and Apple Store, adhering to
+              platform guidelines and optimizing user experience.
+            </li>
+            <li>
+              Collaborated in cross-functional teams across app design,
+              development, testing, and deployment phases.
+            </li>
+            <li>
+              Engaged directly with clients to gather requirements and propose
+              effective technical solutions.
+            </li>
+          </ul>
+        </div>
+        <div class="exp-card">
+          <h3>Frontend Developer</h3>
+          <span>Future Forward DOO</span>
+          <span> Mar 2021 — Oct 2022 · Hybrid</span>
+          <ul>
+            <li>
+              Developed and maintained web and mobile applications using React
+              and React Native.
+            </li>
+            <li>
+              Managed and optimized cloud services, utilizing Firebase and
+              Google Cloud for back-end solutions.
+            </li>
+            <li>
+              Gathered client requirements and presented tailored technical
+              solutions.
+            </li>
+            <li>
+              Conducted code reviews and implemented best practices for enhanced
+              application performance.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">React</div>
+          <div class="skill">React Native</div>
+          <div class="skill">Next.js</div>
+          <div class="skill">Node.js</div>
+          <div class="skill">TypeScript</div>
+          <div class="skill">JavaScript (ES6+)</div>
+          <div class="skill">Firebase</div>
+          <div class="skill">Google Cloud</div>
+          <div class="skill">Redux Toolkit</div>
+          <div class="skill">React Hook Form</div>
+          <div class="skill">MUI / Tailwind CSS</div>
+          <div class="skill">i18next</div>
+          <div class="skill">PIXI.js</div>
+          <div class="skill">REST / GraphQL APIs</div>
+          <div class="skill">Git / GitHub</div>
+          <div class="skill">Responsive Design</div>
+          <div class="skill">Performance Optimization</div>
+          <div class="skill">UI/UX Collaboration</div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <iframe
+          src="https://calendly.com/nikolajonic8"
+          title="Schedule a call with Nikola"
+          width="100%"
+          height="650"
+          style="
+            border: solid 2px #007aff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          "
+        ></iframe>
+      </section>
+      <footer id="contact">
+        ©
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Nikola Jonić
+      </footer>
+    </div>
+
+    <script>
+      function expandProject(el) {
+        const alreadyExpanded = el.classList.contains("expanded");
+        document
+          .querySelectorAll(".project")
+          .forEach((p) => p.classList.remove("expanded"));
+        if (!alreadyExpanded) el.classList.add("expanded");
+      }
+    </script>
+  </body>
+</html>
